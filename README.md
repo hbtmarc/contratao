@@ -11,15 +11,13 @@ gh auth login
 ./scripts/publish-github.sh
 ```
 
-Isso cria o repositório **`plano-contrato`** (público), envia a branch `main` e dispara o workflow de Pages.
-
-Para outro nome de repositório: `./scripts/publish-github.sh meu-nome`.
+Isso envia a branch `main` para **`hbtmarc/contratao`** e dispara o workflow de Pages.
 
 ## Acesso online (GitHub Pages)
 
 Após o deploy, o app fica em:
 
-**https://hbtmarc.github.io/Web/**
+**https://hbtmarc.github.io/contratao/**
 
 ### Publicar Pages
 

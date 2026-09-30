@@ -8,7 +8,7 @@ if ! gh auth status &>/dev/null; then
   exit 1
 fi
 
-REPO="${1:-plano-contrato}"
+REPO="${1:-contratao}"
 
 if git remote get-url origin &>/dev/null; then
   echo "Remote origin já configurado. Enviando alterações..."
@@ -23,4 +23,4 @@ echo ""
 echo "Próximos passos:"
 echo "1. GitHub → Settings → Pages → verifique Source: GitHub Actions"
 echo "2. Firebase → Authentication → Authorized domains → adicione: hibmzrc.github.io"
-echo "3. Site (após o workflow): https://hbtmarc.github.io/Web/"
+echo "3. Site (após o workflow): https://hbtmarc.github.io/contratao/"
