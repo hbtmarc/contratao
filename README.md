@@ -19,9 +19,7 @@ Para outro nome de repositório: `./scripts/publish-github.sh meu-nome`.
 
 Após o deploy, o app fica em:
 
-**https://hibmzrc.github.io/plano-contrato/**
-
-(substitua `hibmzrc` / `plano-contrato` se o repositório tiver outro nome ou owner)
+**https://hbtmarc.github.io/Web/**
 
 ### Publicar Pages
 
@@ -35,7 +33,7 @@ Ou, sem Actions: Source **Deploy from a branch** → branch `main` → pasta **`
 No [Console Firebase](https://console.firebase.google.com/project/diversos-web/authentication/settings) → **Authorized domains**, inclua:
 
 - `localhost` (desenvolvimento)
-- `hibmzrc.github.io` (GitHub Pages — ajuste se usar outro usuário)
+- `hbtmarc.github.io` (GitHub Pages)
 
 Authentication → **Google** deve estar habilitado.
 
