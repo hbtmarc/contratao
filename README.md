@@ -2,6 +2,19 @@
 
 Roadmap de preparação (Analista de Negócios + Planejista): progresso, cobertura de vagas editável, calendário `.ics` e sincronização via Firebase RTDB.
 
+## Publicar no GitHub (primeira vez)
+
+Na raiz do projeto, com [GitHub CLI](https://cli.github.com/) instalado:
+
+```bash
+gh auth login
+./scripts/publish-github.sh
+```
+
+Isso cria o repositório **`plano-contrato`** (público), envia a branch `main` e dispara o workflow de Pages.
+
+Para outro nome de repositório: `./scripts/publish-github.sh meu-nome`.
+
 ## Acesso online (GitHub Pages)
 
 Após o deploy, o app fica em:
