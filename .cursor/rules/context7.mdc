@@ -1,0 +1,32 @@
+---
+description: Consultar Context7 (docs atualizadas) antes de instalar libs, configurar ferramentas ou executar comandos que dependem de APIs externas
+alwaysApply: true
+---
+
+# Context7 — documentação antes da execução
+
+O servidor MCP Context7 está em `~/.cursor/mcp.json` (namespace **`user-context7`** no Cursor). Use-o **antes** de:
+
+- instalar ou atualizar dependências (`npm`, `pnpm`, `yarn`, `pip`, `cargo`, etc.);
+- rodar CLIs desconhecidos ou flags novas (`npx`, `esbuild`, `firebase`, `supabase`, etc.);
+- escrever código que usa biblioteca, framework ou API de terceiros;
+- alterar configuração de ferramentas (MCP, bundler, CI, hosting).
+
+## Fluxo obrigatório
+
+1. Inspecionar o namespace `user-context7` com `GetDynamicTools` se necessário.
+2. Chamar `resolve-library-id` (libraryName + query) e depois `query-docs` (libraryId + pergunta específica) via `CallDynamicTool`.
+3. Só então executar o comando ou editar o código, alinhado ao que a doc retornou.
+
+## Quando pular
+
+- Edição puramente local (texto, CSS, copy) sem API ou pacote novo.
+- Comandos git internos ao repo, testes já documentados no próprio projeto, ou scripts definidos em `scripts/` do repositório.
+
+## Se o MCP não estiver disponível
+
+Informe o usuário, peça **Reload Window** / reinício do Cursor e use a documentação oficial do site do projeto como fallback — não invente flags ou versões de API.
+
+## API key (opcional)
+
+Para limites maiores, defina `CONTEXT7_API_KEY` no ambiente ou em `env` do servidor MCP nas configurações do Cursor ([context7.com/dashboard](https://context7.com/dashboard)).
