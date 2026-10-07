@@ -1,0 +1,108 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Plano Contrato Premium//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plano Contrato
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VEVENT
+UID:timeline-sappm-2026-10-07@plano-contrato
+DTSTAMP:20261007T131540Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261015
+SUMMARY:SAP PM • 11h42
+DESCRIPTION:SAP PM • 11h42 • 6 dias de estudo planejados • 2h líquidas/di
+ a • segunda a sexta • https://www.udemy.com/course/sap-pm-s4hana/
+URL:https://www.udemy.com/course/sap-pm-s4hana/
+CATEGORIES:Plano Contrato
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:timeline-sapmm-2026-10-15@plano-contrato
+DTSTAMP:20261007T131540Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261022
+SUMMARY:SAP MM • 9h15
+DESCRIPTION:SAP MM • 9h15 • 5 dias de estudo planejados • 2h líquidas/dia
+  • segunda a sexta • https://www.udemy.com/course/sap-mm-s4hana-aprenda-p
+ artindo-do-zero/
+URL:https://www.udemy.com/course/sap-mm-s4hana-aprenda-partindo-do-zero/
+CATEGORIES:Plano Contrato
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:timeline-msproject-2026-10-22@plano-contrato
+DTSTAMP:20261007T131540Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261103
+SUMMARY:MS Project • 14h47
+DESCRIPTION:MS Project • 14h47 • 8 dias de estudo planejados • 2h líquida
+ s/dia • segunda a sexta • https://www.udemy.com/course/msprojectyto/
+URL:https://www.udemy.com/course/msprojectyto/
+CATEGORIES:Plano Contrato
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:timeline-p6-2026-11-03@plano-contrato
+DTSTAMP:20261007T131540Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261111
+SUMMARY:Primavera P6 • 11h22
+DESCRIPTION:Primavera P6 • 11h22 • 6 dias de estudo planejados • 2h líqui
+ das/dia • segunda a sexta • https://www.udemy.com/course/primavera-p6/
+URL:https://www.udemy.com/course/primavera-p6/
+CATEGORIES:Plano Contrato
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:timeline-p6pro-2026-11-11@plano-contrato
+DTSTAMP:20261007T131540Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261118
+SUMMARY:P6 PRO • 8h38
+DESCRIPTION:P6 PRO • 8h38 • 5 dias de estudo planejados • 2h líquidas/dia
+  • segunda a sexta • https://www.udemy.com/course/primavera-p6-2-em-1-vs-
+ ingles-e-equivalente-em-portugues/
+URL:https://www.udemy.com/course/primavera-p6-2-em-1-vs-ingles-e-equivale
+ nte-em-portugues/
+CATEGORIES:Plano Contrato
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:timeline-dadosbi-2026-11-18@plano-contrato
+DTSTAMP:20261007T131540Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261126
+SUMMARY:Dados & BI • 10h09
+DESCRIPTION:Dados & BI • 10h09 • 6 dias de estudo planejados • 2h líquida
+ s/dia • segunda a sexta • https://www.udemy.com/course/analista-de-bi/
+URL:https://www.udemy.com/course/analista-de-bi/
+CATEGORIES:Plano Contrato
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:timeline-powerbi-2026-11-26@plano-contrato
+DTSTAMP:20261007T131540Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261231
+SUMMARY:Power BI + SQL • 48h43
+DESCRIPTION:Power BI + SQL • 48h43 • 25 dias de estudo planejados • 2h lí
+ quidas/dia • segunda a sexta • https://www.udemy.com/course/powerbi-sqlse
+ rver/
+URL:https://www.udemy.com/course/powerbi-sqlserver/
+CATEGORIES:Plano Contrato
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:timeline-ingles-2026-12-31@plano-contrato
+DTSTAMP:20261007T131540Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270113
+SUMMARY:Inglês • 17h38
+DESCRIPTION:Inglês • 17h38 • 9 dias de estudo planejados • 2h líquidas/di
+ a • segunda a sexta • https://www.udemy.com/course/inglesextremo/
+URL:https://www.udemy.com/course/inglesextremo/
+CATEGORIES:Plano Contrato
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

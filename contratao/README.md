@@ -1,6 +1,6 @@
 # Plano Contrato
 
-Roadmap de preparação (Analista de Negócios + Planejista): progresso, cobertura de vagas editável, calendário `.ics` e sincronização via Firebase RTDB.
+Roadmap premium de preparação (Analista de Negócios + Planejista): progresso, cobertura editável, calendário `.ics` em modo limpo/detalhado, timer e sincronização via Firebase RTDB.
 
 ## Publicar no GitHub (primeira vez)
 
@@ -68,3 +68,12 @@ Projeto padrão: **diversos-web** (`.firebaserc`).
 ## Backup
 
 Dentro do app: **Configurações** → exportar/importar backup JSON. Com Google conectado, o estado também fica em `users/{uid}/planoContrato/v4` no RTDB.
+
+
+## Calendário
+
+Para evitar poluir o calendário pessoal, crie um calendário separado chamado **Plano Contrato** e importe o `.ics` nele. O app oferece uma **Timeline limpa** (recomendada) e **Sessões detalhadas**. Consulte `CALENDARIO.md`.
+
+## Auditoria 07/10/2026
+
+Consulte `AUDITORIA_REVAMP.md` para o cronograma atualizado, mudança do curso de Power BI e detalhes da revisão de UI/UX.
