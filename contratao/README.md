@@ -31,7 +31,10 @@ Ou, sem Actions: Source **Deploy from a branch** → branch `main` → pasta **`
 No [Console Firebase](https://console.firebase.google.com/project/diversos-web/authentication/settings) → **Authorized domains**, inclua:
 
 - `localhost` (desenvolvimento)
+- `127.0.0.1` (Live Server / VS Code — **não** é o mesmo que `localhost`)
 - `hbtmarc.github.io` (GitHub Pages)
+
+Para login em outro PC, prefira **https://hbtmarc.github.io/contratao/**. Se o pop-up for bloqueado, o app tenta redirecionamento automaticamente.
 
 Authentication → **Google** deve estar habilitado.
 
