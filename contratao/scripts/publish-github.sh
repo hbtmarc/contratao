@@ -22,5 +22,5 @@ fi
 echo ""
 echo "Próximos passos:"
 echo "1. GitHub → Settings → Pages → verifique Source: GitHub Actions"
-echo "2. Firebase → Authentication → Authorized domains → adicione: hibmzrc.github.io"
+echo "2. Firebase → Authentication → Authorized domains → adicione: hbtmarc.github.io (e 127.0.0.1 se usar Live Server)"
 echo "3. Site (após o workflow): https://hbtmarc.github.io/contratao/"
